@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.dashboard.PhysicalActivity">
+
+    <include
+        android:id="@+id/layout"
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_8sdp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_8sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/steps"
+                    android:tint="@color/colorSteps" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+                    android:id="@+id/donut_steps"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    app:donut_circle_starting_degree="270"
+                    app:donut_finished_color="@color/colorSteps"
+                    app:donut_finished_stroke_width="@dimen/_6sdp"
+                    app:donut_progress="1"
+                    app:donut_text=""
+                    app:donut_text_color="@color/colorWhite"
+                    app:donut_unfinished_color="@color/colorStepsLight"
+                    app:donut_unfinished_stroke_width="@dimen/_2sdp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_steps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="center"
+                android:text="100,94 Steps"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/location"
+                            android:tint="@color/colorSteps" />
+
+                        <com.github.lzyzsd.circleprogress.DonutProgress
+                            android:id="@+id/donut_distance"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            app:donut_circle_starting_degree="270"
+                            app:donut_finished_color="@color/colorSteps"
+                            app:donut_finished_stroke_width="@dimen/_5sdp"
+                            app:donut_progress="1"
+                            app:donut_text=""
+                            app:donut_text_color="@color/colorWhite"
+                            app:donut_unfinished_color="@color/colorStepsLight"
+                            app:donut_unfinished_stroke_width="@dimen/_1sdp" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_distance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:gravity="center"
+                        android:text="100,94 miles"
+                        android:textSize="@dimen/_13ssp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/fire"
+                            android:tint="@color/colorSteps" />
+
+                        <com.github.lzyzsd.circleprogress.DonutProgress
+                            android:id="@+id/donut_calories"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            app:donut_circle_starting_degree="270"
+                            app:donut_finished_color="@color/colorSteps"
+                            app:donut_finished_stroke_width="@dimen/_5sdp"
+                            app:donut_progress="70"
+                            app:donut_text=""
+                            app:donut_text_color="@color/colorWhite"
+                            app:donut_unfinished_color="@color/colorStepsLight"
+                            app:donut_unfinished_stroke_width="@dimen/_1sdp" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_calories"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:gravity="center"
+                        android:text="100,94 calories"
+                        android:textSize="@dimen/_13ssp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/thunder"
+                            android:tint="@color/colorSteps" />
+
+                        <com.github.lzyzsd.circleprogress.DonutProgress
+                            android:id="@+id/donut_minutes"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            app:donut_circle_starting_degree="270"
+                            app:donut_finished_color="@color/colorSteps"
+                            app:donut_finished_stroke_width="@dimen/_5sdp"
+                            app:donut_progress="70"
+                            app:donut_text=""
+                            app:donut_text_color="@color/colorWhite"
+                            app:donut_unfinished_color="@color/colorStepsLight"
+                            app:donut_unfinished_stroke_width="@dimen/_1sdp" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_minutes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:gravity="center"
+                        android:text="100,94 minutes"
+                        android:textSize="@dimen/_13ssp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_water"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_8sdp"
+
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_8sdp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_8sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/water"
+                    android:tint="@color/colorWater" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+                    android:id="@+id/donut_water"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    app:donut_circle_starting_degree="270"
+                    app:donut_finished_color="@color/colorWater"
+                    app:donut_finished_stroke_width="@dimen/_6sdp"
+                    app:donut_progress="85"
+                    app:donut_text=""
+                    app:donut_text_color="@color/colorWhite"
+                    app:donut_unfinished_color="@color/colorWaterLight"
+                    app:donut_unfinished_stroke_width="@dimen/_2sdp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="center"
+                android:text="100,94 ml"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/drop"
+                            android:tint="@color/colorWater" />
+
+                        <com.github.lzyzsd.circleprogress.DonutProgress
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            app:donut_circle_starting_degree="270"
+                            app:donut_finished_color="@color/colorWater"
+                            app:donut_finished_stroke_width="@dimen/_5sdp"
+                            app:donut_progress="70"
+                            app:donut_text=""
+                            app:donut_text_color="@color/colorWhite"
+                            app:donut_unfinished_color="@color/colorWaterLight"
+                            app:donut_unfinished_stroke_width="@dimen/_1sdp" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:gravity="center"
+                        android:text="100,94 ml"
+                        android:textSize="@dimen/_13ssp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+

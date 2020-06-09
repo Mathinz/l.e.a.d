@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_2sdp"
+    android:background="@drawable/bg_border"
+    android:orientation="vertical"
+    android:padding="@dimen/_4sdp">
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        android:padding="@dimen/_4sdp"
+        android:text="The program was helpful to me."
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_16ssp" />
+
+    <RadioGroup
+        android:id="@+id/rg_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_2sdp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorAccent"
+            android:gravity="center"
+            android:text="Yes"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_13ssp" />
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rb_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorAccent"
+            android:gravity="center"
+            android:text="No"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_13ssp" />
+     <RadioButton
+            android:id="@+id/rb_sometimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorAccent"
+            android:gravity="center"
+            android:text="Sometimes"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_13ssp" />
+
+
+    </RadioGroup>
+
+</LinearLayout>

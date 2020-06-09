@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.dev.lead.activities.vitalSign.AddVitalSignActivity">
+
+
+    <include
+        android:id="@+id/layout"
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout">
+
+
+        <EditText
+            android:id="@+id/et_glucose_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@drawable/bg_border_unpressed"
+            android:hint="Enter Glucose level in mg/dL"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_15ssp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@drawable/bg_border_unpressed"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_4sdp"
+                android:padding="@dimen/_4sdp"
+                android:text="Enter Blood pressure"
+                android:textSize="@dimen/_15ssp" />
+
+            <EditText
+                android:id="@+id/et_blood_pressure_sy"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="mm Hg"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="@dimen/_4sdp"
+                android:textSize="@dimen/_15ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="/"
+                android:textSize="@dimen/_20ssp" />
+
+            <EditText
+                android:id="@+id/et_blood_pressure_dia"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="mm Hg"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="@dimen/_4sdp"
+                android:textSize="@dimen/_15ssp" />
+
+
+        </LinearLayout>
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/et_blood_pressure"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_margin="@dimen/_4sdp"-->
+        <!--            android:background="@drawable/bg_border_unpressed"-->
+        <!--            android:hint="Enter Blood pressure in mm Hg"-->
+        <!--            android:inputType="numberDecimal"-->
+        <!--            android:maxLength="7"-->
+        <!--            android:padding="@dimen/_8sdp"-->
+        <!--            android:textSize="@dimen/_16ssp" />-->
+
+        <EditText
+            android:id="@+id/et_body_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@drawable/bg_border_unpressed"
+            android:hint="Enter Body temperature in °F"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_15ssp" />
+
+        <Button
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_16sdp"
+            android:background="@drawable/bg_border"
+            android:gravity="center"
+            android:onClick="addVitalSign"
+            android:padding="@dimen/_8sdp"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/_15ssp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

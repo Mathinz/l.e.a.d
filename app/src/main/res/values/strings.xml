@@ -1,0 +1,295 @@
+<resources>
+    <string name="app_name">L.E.A.D</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="end">End</string>
+
+    <string name="calories">Calories: %1$s cal</string>
+    <string name="steps">Steps: %1$s</string>
+    <string name="time">Time: %1$s</string>
+    <string name="distance">Distance: %1$s m</string>
+    <string name="save">Save</string>
+
+    <string name="p_steps">%1$s steps</string>
+    <string name="p_distance">%1$s meters</string>
+    <string name="p_calories">%1$s calories</string>
+    <string name="p_minutes">%1$s minutes</string>
+    <string name="p_water">%1$s liter</string>
+    <string name="p_waters">%1$s liters</string>
+    <string name="weekly">Weekly Dates : %1$s</string>
+    <string name="evaluation_program_details">Tell us about the Live well, Eat well, be Active with Diabetes (LEAD) program, infographic and health.</string>
+    <string name="pre_meal">Pre Meal</string>
+    <string name="post_meal">Post Meal</string>
+    <string name="pre_evaluation">Pre Evaluation</string>
+    <string name="post_evaluation">Post Evaluation</string>
+    <string name="weekend">Weekend</string>
+    <string name="weekday">Weekday</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="other">Other</string>
+    <string name="snack">Snack</string>
+    <string name="how_much">How Much?</string>
+    <string name="non_starchy_vegetables">Non starchy vegetables</string>
+    <string name="starches">Starches</string>
+    <string name="protein">Protein</string>
+    <string name="fruit">Fruit</string>
+    <string name="dairy">Dairy</string>
+    <string name="about_us">About us</string>
+    <string name="what_is_lead">What is LEAD?</string>
+    <string name="contact_us">Contact us</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+
+    <string-array name="time_array">
+        <item>1X a day</item>
+        <item>2X a day</item>
+        <item>3X a day</item>
+    </string-array>
+
+    <string-array name="age_array">
+        <item>18-24</item>
+        <item>25-29</item>
+        <item>30-34</item>
+        <item>35-39</item>
+        <item>40-44</item>
+        <item>45-49</item>
+        <item>50-54</item>
+        <item>55-59</item>
+        <item>60-64</item>
+        <item>65-69</item>
+        <item>70-74</item>
+        <item>75+</item>
+    </string-array>
+
+    <string-array name="race_array">
+        <item>African American</item>
+        <item>Asian American</item>
+        <item>Hispanic</item>
+        <item>Native American</item>
+        <item>White</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="medication_array">
+        <item>Add Medication Alert</item>
+        <item>Add Doctor Appointment</item>
+    </string-array>
+
+    <string-array name="array_program">
+        <item>The program was helpful to me.</item>
+        <item>The program was easy to understand</item>
+        <item>Would you recommend this program to others?</item>
+        <item>Overall, I feel better able to take care of my health.</item>
+        <item>What was the most important concept you learned?</item>
+    </string-array>
+
+    <string-array name="array_infographic">
+        <item>The infographic is helpful to me.</item>
+        <item>The infographic is visually appealing</item>
+    </string-array>
+
+    <string-array name="array_health">
+        <item>I have maintained or lost weight</item>
+        <item>My blood glucose is in better control</item>
+    </string-array>
+
+    <string-array name="array_live">
+        <item>I understand what type 2 diabetes is.</item>
+        <item>I understand the long-term effects of high blood glucose.</item>
+        <item>I understand what can increase or decrease my blood glucose.</item>
+        <item>I understand how to manage my diabetes.</item>
+        <item>I feel I have an important role with my health care team</item>
+        <item>I check my blood glucose regularly</item>
+        <item>I check my feet regularly</item>
+        <item>I feel it is important to-have regular diabetes check-ups</item>
+        <item>I feel it is important to have regular eye exams.</item>
+        <item>I feel it is important to have regular dental exams.</item>
+        <item>I feel it is important to know what to do when my blood glucose goes too high or too low.</item>
+        <item>I feel because I have diabetes it is important to manage stress</item>
+    </string-array>
+
+    <string-array name="array_eat">
+        <item>I understand the plate method </item>
+        <item>I am comfortable with planning my meals using the plate method </item>
+        <item>I choose lots of non-starchy vegetables</item>
+        <item>I choose high fiber starches (bread, cereals, etc.).</item>
+        <item>I choose lean protein foods.</item>
+        <item>I choose whole fruits more than juices.</item>
+        <item>I choose low fat or fat free milk products</item>
+        <item>I choose foods with less added sugar.</item>
+        <item>I choose beverages with less added sugar.</item>
+        <item>I choose foods with less sodium.</item>
+        <item>I read food labels to make more healthful choices.</item>
+        <item>I prepare foods with less solid fats. </item>
+        <item>I prepare foods with less added sugar.</item>
+        <item>I prepare foods with less salt.</item>
+        <item>I prepare healthy meals at home.</item>
+        <item>I make healthy food choices when eating out.</item>
+    </string-array>
+
+    <string-array name="array_active">
+        <item>I understand I should check with my health care provider before increasing my physical activity.</item>
+        <item>I understand how physical activity can affect blood glucose.</item>
+        <item>I understand the importance of checking my blood glucose if I am going to be physically active</item>
+        <item>I know the signs of low blood glucose during physical activity</item>
+        <item>I understand I should check with my health care provider about what to do if my blood glucose goes too low during physical activity</item>
+        <item>I understand why I should drink plenty of fluids while being physically active.</item>
+        <item>I understand why I should wear appropriate shoes for physical activity.</item>
+        <item>I understand why I should check my feet after physical activity</item>
+        <item>I understand why I should choose a safe place to be physically active if I have diabetes.</item>
+        <item>I understand that If I feel sick, dizzy, or out of breath, to stop physical activity.</item>
+        <item>I am physically active.</item>
+    </string-array>
+
+    <string-array name="array_food">
+        <item>Whole Wheat Bread-Toast</item>
+        <item>Bacon</item>
+        <item>Scrambled Eggs</item>
+        <item>Whole Milk</item>
+        <item>Apple Juice</item>
+    </string-array>
+
+    <string-array name="array_much">
+        <item>2 slices</item>
+        <item>1 slice</item>
+        <item>1 egg</item>
+        <item>1 cup 8 oz</item>
+        <item>1 glass 16 oz</item>
+    </string-array>
+
+    <string-array name="array_meal">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+
+    </string-array>
+
+    <string-array name="array_non_starchy">
+        <item>Choose frozen non starchy vegetables without added sauces, fats, or salt.</item>
+        <item>Choose vegetables canned without salt.</item>
+        <item>Drain and rinse vegetables canned with salt.</item>
+        <item>Use herbs and spices to season rather than fats and salt.</item>
+        <item>Choose more orange, dark green, and red vegetables.</item>
+    </string-array>
+
+    <string-array name="array_starchy">
+        <item>Choose whole-grain starches.</item>
+        <item>Dried beans and lentils.</item>
+        <item>Whole-grain breads, pastas, cereals and crackers.</item>
+        <item>Corn tortillas and brown rice.</item>
+        <item>Use whole-grains in cooking and baking.</item>
+        <item>Add less fat and salt to cooked grains, beans, and pasta.</item>
+        <item>Choose snacks lower in added fat, sugar, and salt.</item>
+        <item>Whole grain, low-fat cereals, crackers, or popcorn.</item>
+    </string-array>
+
+    <string-array name="array_protein">
+        <item>Remove the skin from chicken and turkey.</item>
+        <item>Choose lean beef, pork and fish.</item>
+        <item>Choose low-fat cheeses.</item>
+        <item>Trim visible fat from meat.</item>
+        <item>Bake, roast, broil, grill, or boil instead of frying.</item>
+        <item>Use herbs and spices to season rather than fats and salt.</item>
+    </string-array>
+
+    <string-array name="array_fruit">
+        <item>Choose whole fruits more often than juices.</item>
+        <item>Whole fruits have more fiber.</item>
+        <item>If you choose juice, choose 100% fruit juices with no added sugars.</item>
+        <item>Juice provides a lot of calories and carbs in a small portion.</item>
+        <item>4 oz of juice has about 15 grams of carbohydrate and 60 calories.</item>
+        <item>Choose canned fruits packed in water or natural juice instead of syrup.</item>
+
+    </string-array>
+
+    <string-array name="array_dairy">
+        <item>Fat-free or low-fat milk (1%).</item>
+        <item>Plain non-fat yogurt (regular or Greek yogurt).</item>
+        <item>Non-fat light yogurt (regular or Greek yogurt).</item>
+        <item>Unflavored fortified soy milk.</item>
+        <item>If you are lactose intolerant or don\'t like milk, you may want to try fortified soy milk, rice milk, or almond milk as a source of calcium and vitamin D.</item>
+    </string-array>
+
+    <string name="about_details">Welcome to "<b>"L"</b>"ive well, <b>E</b>at well, be <b>A</b>ctive with <b>D</b>iabetes (LEAD).
+        \n\nThe objective of the <b>LEAD</b> app is to assist the underserved, ethnically diverse, and lower socioeconomic population who have diabetes.
+        The <b>LEAD</b> mobile app will assist with self-care management for individuals with diabetes. The <b>LEAD</b> app works in tandem with the <b>LEAD</b> curriculum.
+        This mobile app is strictly for educational purposes and is not intended to diagnose, provide, or replace medical care.
+        In case of emergency call 911.
+        \n\nThis project is funded by USDA-NIFA and a combined effort by Cooperative Extension Program-Family
+        and Community Health, (Dr. Jennifer Garza, Trissy McCoy),the Cooperate Agricultural Research Center (Dr. P. M. Johnson)
+        and College of Agriculture and Human Sciences (Dr. Sharon McWhinney) and Graduate student Echi Mathias.
+        \n\nSpecial thanks go to the following people from which this project would have never come to fruition without:
+        \n\nMr. Mathias Echi
+        \nDr. Paul Johnson
+        \nMs. Trissy McCoy
+        \nDr. Sharon McWhinney
+        \nDr. Jacquelyn White
+        \nDr. Carolyn Williams
+        \n\nEOS
+        \n\nThe Cooperative Extension Program does not discriminate against anyone regardless of their race, color, national origin, religion, sex, gender
+        identity (including gender expression), sexual orientation, disability, age, marital status, family/parental status, income derived
+        from a public assistance program, political beliefs, reprisal or retaliation for prior civil rights activity, in any program or activity.
+        Persons who require communication in a language other than English or with a disability who require alternative means of communication of program
+        information (braille, large print, audiotape, etc.) should contact Ms. Belinda Lewis in the Office of Disability Services at 936-261-3585 in advance.
+        \n\nContact Dr. Jennifer Garza @\njegarza@pvamu.edu
+        \n\nAll rights reserved Coperate extension program, College of Agriculture and Human sciences.\nCopyright @LEAD 2020.\n
+</string>
+    <string name="lead_details">What is LEAD?
+        \n\nOnce you click the LEAD app icon, there is a “sign in” button that captures demographics.
+        After signing in, the next page takes you to the heart of the app with options for Medications,
+        Vital Signs, Physical Activity, Healthy Foods, Evaluation and Help.
+        \n\nOptions:
+        \n\nMedications gives three options: Medicine Alert, Dr Appointment, and a Medicine Track.
+        \n\nMedicine Alert will allow you to keep track of your prescriptions (name, reason for medication, how often you take it).
+        The Dr Appointment will allow you to keep track of your doctor’s appointments.  You enter the date, time, doctor’s name, locations and reason for appointment.
+        The Medicine Track allows you to enter alerts that remind you to take your medicine and  remind you about doctor’s appointments.
+        \n\nVital Signs keeps track of your glucose mg/dl levels, your blood pressure and your body temperature then charts these levels weekly.
+        \n\nPhysical Activity keeps track of your steps, calories and minutes.  It also keeps track of your water intake.
+        Then it will chart both your physical activity and water intake weekly.
+        \n\nEvaluation (coupled with the LEAD curriculum) provides an evaluative measure. The module contains a Pre Meal, Post Meal, Pre Evaluation, and Post Evaluation
+        \n\nHelp provides information about us, contact info, funding source and resources.
+        \n\nDISCLAIMER
+        \n\nThe application is provided on an as-is and as-available basis. You agree that your use of the application services will be at your sole risk.
+        To the fullest extent permitted by law, we disclaim all warranties, express or implied, in connection with the application and your use thereof,
+        including, without limitation, the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+        We make no warranties or representations about the accuracy or completeness of the application’s content or the content of any websites linked to
+        this application and we will assume no liability or responsibility for any (1) errors, mistakes, or inaccuracies of content and materials,
+        (2) personal injury or property damage, of any nature whatsoever, resulting from your access to and use of the application,
+        (3) any unauthorized access to or use of our secure servers and/or any and all personal information and/or financial information stored therein,
+        (4) any interruption or cessation of transmission to or from the application,
+        (5) any bugs, viruses, trojan horses, or the like which may be transmitted to or through the application by any third party, and/or
+        (6) any errors or omissions in any content and materials or for any loss or damage of any kind incurred as a result of the use of any content posted,
+        transmitted, or otherwise made available via the application. We do not warrant, endorse, guarantee, or assume responsibility for any product or
+        service advertised or offered by a third party through the application, any hyperlinked website, or any website or mobile application featured in
+        any banner or other advertising, and we will not be a party to or in any way be responsible for monitoring any transaction between you and any
+        third-party providers of products or services. As with the purchase of a product or service through any medium or in any environment,
+        you should use your best judgment and exercise caution where appropriate.\n
+     </string>
+    <string name="contact_details">If you have any questions about these Terms, please contact us at Cooperative Extension Program, 936–261–5148.</string>
+
+    <string name="terms_and_conditions_details">Terms and Conditions for the use of Live well, Eat well, be Active with Diabetes (LEAD)
+            \n\nTerms and Conditions (“LEAD”)
+            \n\nPlease read these Terms and Conditions (“Terms and Conditions”) carefully before using the LEAD mobile application (the “Service”) operated by Prairie View A&amp;M University-Cooperative Extension Program-Family and Community Health (here after shall be referred to as “Organization”).
+            \n\nYour access to and use the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service.
+            \n\nBy accessing or using the Service you agree to be bound by these Terms.  If you disagree with any part of the terms then you may not access the Service.
+            \n\nThe use of the App is not intended to negate the need to consult your physician. This should only be used as a guide to assist you in managing diabetes.
+            \n\nContent
+            \n\nThis mobile app is strictly for educational purposes and is not intended to diagnose, provide, or replace medical care.  In case of emergency call 911.
+            \n\nOur Service allows you to: Manage “Medications” through three options: Medicine Alert, Dr Appointment, and a Medicine Track.
+            \n\nMedicine Alert will allow you to keep track of your prescriptions (name, reason for medication, how often you take it). The Dr Appointment will allow you to keep track of your doctor’s appointments.  You enter the date, time, doctor’s name, locations and reason for appointment. The  Medicine Track allows you to enter alerts that remind you to take your medicine and  remind you about doctor’s appointments.
+            \n\nVital Signs keeps track of your glucose mg/dl levels, your blood pressure and your body temperature then charts these levels weekly.
+            \n\nPhysical Activity keeps track of your steps, calories and minutes.  It also keeps track of your water intake. Then it will chart both your physical activity and water intake weekly.
+            \n\nEvaluation (coupled with the LEAD curriculum) provides an evaluative measure. The module contains a Pre Meal, Post Meal, Pre Evaluation, and Post Evaluation.
+            \n\nHelp provides information about us, contact info, funding source and resources.
+            \n\nLinks to Other Web Sites
+            \n\nOur Service may contain links to third-party web sites or services that are not owned or controlled by LEAD or Prairie View A&amp;M University.
+            \n\nWe do have control over nor do we assume responsibility for the content, privacy policies, or practices of any third party web sites or services.  You further acknowledge and agree that My Company organization shall not be responsible or liable, directly or indirectly, for any damages or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+            \n\nConduct
+            \n\nIf your digital interactions with other users (including but not limited to: site messages, instant messages, journal postings, and forum comments), you agree to conduct yourself civilly and respectfully.  While using the mobile app you agree that you shall not under any circumstance harass or make mischief against any other user. The Organization reserves the right to determine, at its sole discretion, what constitutes as harassment or mischief, and where that has occurred; and may, also at its sole discretion, partially or completely deny services to any infringing party.  As part of these efforts, the organization may enlist the help of its active users to moderate flagged messages, comments, and other contents to determine if a user’s conduct is harmful to the community.
+            \n\nChanges
+            \n\nWe reserve the right, at our sole discretion, to modify or replace these Terms at any time.  If a revision is material, we will try to provide notice prior to any new terms taking effect.  What constitutes a material change will be determined at our sole discretion.
+            \n\nContact Us
+            \n\nIf you have any questions about these Terms, please contact us at Cooperative Extension Program, 936-261-5148.\n
+    </string>
+
+</resources>

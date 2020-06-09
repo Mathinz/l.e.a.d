@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">vetlink2.pvamu.edu</domain>
+<!--        <domain includeSubdomains="true">192.168.0.136</domain>-->
+    </domain-config>
+</network-security-config>
+
+    <!--Fix Cleartext Traffic Error in Android 9 Pie-->

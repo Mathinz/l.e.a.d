@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.dev.lead.activities.physicalActivity.StepsActivity">
+
+    <include
+        android:id="@+id/layout"
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_add"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="0dp"
+        android:onClick="onAddClick"
+        android:padding="@dimen/_8sdp"
+        android:src="@drawable/ic_add_circle"
+        android:tint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/layout"
+        app:layout_constraintEnd_toEndOf="@+id/layout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_margin="@dimen/_8sdp"
+            app:cardBackgroundColor="@color/colorSteps"
+            app:cardElevation="@dimen/_8sdp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/thunder"
+                            android:tint="@color/colorWhite" />
+
+                        <com.github.lzyzsd.circleprogress.DonutProgress
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            app:donut_circle_starting_degree="270"
+                            app:donut_finished_color="@color/colorWhite"
+                            app:donut_finished_stroke_width="@dimen/_5sdp"
+                            app:donut_progress="0"
+                            app:donut_text=""
+                            app:donut_text_color="@color/colorWhite"
+                            app:donut_unfinished_color="@color/colorWhite"
+                            app:donut_unfinished_stroke_width="@dimen/_1sdp" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_minutes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:gravity="center"
+                        android:text="100,94 minutes"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_13ssp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/_24sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginRight="@dimen/_24sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/colorWhite" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:layout_width="@dimen/_16sdp"
+                                android:layout_height="@dimen/_16sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/location"
+                                android:tint="@color/colorWhite" />
+
+                            <com.github.lzyzsd.circleprogress.DonutProgress
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                app:donut_circle_starting_degree="270"
+                                app:donut_finished_color="@color/colorWhite"
+                                app:donut_finished_stroke_width="@dimen/_5sdp"
+                                app:donut_progress="0"
+                                app:donut_text=""
+                                app:donut_text_color="@color/colorWhite"
+                                app:donut_unfinished_color="@color/colorWhite"
+                                app:donut_unfinished_stroke_width="@dimen/_1sdp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/tv_distance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_4sdp"
+                            android:gravity="center"
+                            android:text="100,94 miles"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:background="@color/colorWhite" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:layout_width="@dimen/_16sdp"
+                                android:layout_height="@dimen/_16sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/fire"
+                                android:tint="@color/colorWhite" />
+
+                            <com.github.lzyzsd.circleprogress.DonutProgress
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                app:donut_circle_starting_degree="270"
+                                app:donut_finished_color="@color/colorWhite"
+                                app:donut_finished_stroke_width="@dimen/_5sdp"
+                                app:donut_progress="0"
+                                app:donut_text=""
+                                app:donut_text_color="@color/colorWhite"
+                                app:donut_unfinished_color="@color/colorWhite"
+                                app:donut_unfinished_stroke_width="@dimen/_1sdp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/tv_calories"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_4sdp"
+                            android:gravity="center"
+                            android:text="100,94 calories"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            app:cardElevation="@dimen/_8sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:onClick="onLeftClick"
+                        android:src="@drawable/ic_left"
+                        android:tint="@color/colorSteps" />
+
+                    <TextView
+                        android:id="@+id/tv_weekly"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="100,94 ml"
+                        android:textColor="@color/colorSteps"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:onClick="onRightClick"
+                        android:src="@drawable/ic_right"
+                        android:tint="@color/colorSteps" />
+
+                </LinearLayout>
+
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/steps_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_8sdp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

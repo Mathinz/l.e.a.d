@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.dev.lead.activities.dashboard.EvaluationActivity">
+
+    <include
+        android:id="@+id/layout"
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"/>
+
+    <Button
+        android:id="@+id/btn_pre_meal"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/bg_border"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/pre_meal"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_selector"
+        android:textSize="@dimen/_15ssp" />
+    <Button
+        android:id="@+id/btn_post_meal"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/bg_border"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/post_meal"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_selector"
+        android:textSize="@dimen/_15ssp" />
+
+    <Button
+        android:id="@+id/btn_pre_evaluation"
+
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/bg_border"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/pre_evaluation"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_selector"
+        android:textSize="@dimen/_15ssp" />
+    <Button
+        android:id="@+id/btn_post_evaluation"
+
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/bg_border"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/post_evaluation"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_selector"
+        android:textSize="@dimen/_15ssp" />
+
+
+
+</LinearLayout>

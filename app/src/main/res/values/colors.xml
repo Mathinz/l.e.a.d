@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+<!--    <color name="colorPrimaryDark">#0f82d2</color>-->
+    <color name="colorPrimaryDark">#502d82</color>
+<!--    <color name="colorAccent">#0080ff</color>-->
+    <color name="colorAccent">#502d82</color>
+    <color name="colorYellow">#fed10a</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorToolbar">#0e81d1</color>
+    <color name="colorBg">#e4e9ef</color>
+
+    <color name="colorWater">#45cc5e</color>
+    <color name="colorWaterLight">#8045cc5e</color>
+    <color name="colorSteps">#2dc9d7</color>
+    <color name="colorStepsLight">#802dc9d7</color>
+    <color name="colorFood">#ff8800</color>
+    <color name="colorFoodLight">#80ff8800</color>
+    <color name="colorNavyBlue">#0e81d1</color>
+</resources>

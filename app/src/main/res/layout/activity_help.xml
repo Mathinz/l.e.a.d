@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.dev.lead.activities.dashboard.HelpActivity">
+
+
+    <include
+        android:id="@+id/layout"
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout">
+
+
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/bg_border"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/about_us"
+            android:textAllCaps="false"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/_15ssp" />
+
+        <Button
+            android:id="@+id/btn_what"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/bg_border"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/what_is_lead"
+            android:textAllCaps="false"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/_15ssp" />
+
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/bg_border"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/contact_us"
+            android:textAllCaps="false"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/_15ssp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
